@@ -1,0 +1,33 @@
+.descrition {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  opacity: 0.75;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.card {
+  position: relative;
+}
+
+.bookmark {
+  cursor: pointer;
+  position: absolute;
+  background: #10141e;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 16px;
+  right: 16px;
+  z-index: 1;
+}
+
+.bookmark:hover {
+  background-color: var(--PureWhite);
+}

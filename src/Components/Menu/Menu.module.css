@@ -1,0 +1,19 @@
+.menu_wrapper {
+  position: absolute;
+  background-color: var(--SemiDarkBlue);
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 96px;
+  border-radius: 20px;
+  padding: 32px 28px;
+}
+
+.nav {
+  display: flex;
+  margin-top: 75px;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}

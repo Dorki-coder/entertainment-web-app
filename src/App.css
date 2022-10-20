@@ -1,38 +1,61 @@
+body {
+  background-color: var(--DarkBlue);
+  color: var(--PureWhite);
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+input[type="text"]::placeholder {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+img {
+  max-width: 100%;
+}
+
 .App {
-  text-align: center;
+  padding: 32px 36px 52px 32px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  margin-left: 160px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h2 {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.5px;
 }
 
-.App-link {
-  color: #61dafb;
+h3 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list {
+  margin-top: 38px;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 40px;
+}
+
+.list img {
+  border-radius: 8px;
+}
+
+section {
+  margin-top: 40px;
 }

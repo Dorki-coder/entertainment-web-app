@@ -1,0 +1,25 @@
+.input {
+  background: none;
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid var(--GreyishBlue);
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+  color: var(--PureWhite);
+  caret-color: var(--Red);
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.input__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  margin-bottom: 34px;
+}
