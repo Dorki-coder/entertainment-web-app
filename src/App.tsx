@@ -11,7 +11,7 @@ import TV from "./Pages/TV";
 
 function App() {
   const [inputValue, setInputValue] = useState("");
-  const [filteredArray, setFilteredArray] = useState(data);
+  const [filteredArray, setFilteredArray] = useState([] as any);
 
   useEffect(() => {
     try {
@@ -19,7 +19,9 @@ function App() {
       if (localData.length > 0) {
         setFilteredArray(localData);
       }
-    } catch {}
+    } catch {
+      setFilteredArray(data);
+    }
   }, []);
   return (
     <div className="App">
