@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/entertainment-web-app/home/precache-manifest.a8fb67c6f4e9a2403311d1b6068704a2.js"
+  "/entertainment-web-app/precache-manifest.b07dbd25080ce121b37125bd17a1539f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/entertainment-web-app/home/index.html", {
+workbox.routing.registerNavigationRoute("/entertainment-web-app/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
