@@ -14,10 +14,12 @@ function App() {
   const [filteredArray, setFilteredArray] = useState(data);
 
   useEffect(() => {
-    const localData = JSON.parse(localStorage.getItem("localData") || "");
-    if (localData.length > 0) {
-      setFilteredArray(localData);
-    }
+    try {
+      const localData = JSON.parse(localStorage.getItem("localData") || "");
+      if (localData.length > 0) {
+        setFilteredArray(localData);
+      }
+    } catch {}
   }, []);
   return (
     <div className="App">
