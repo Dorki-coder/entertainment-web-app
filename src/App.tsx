@@ -12,9 +12,10 @@ import TV from "./Pages/TV";
 function App() {
   const [inputValue, setInputValue] = useState("");
   const [filteredArray, setFilteredArray] = useState(data);
+
   useEffect(() => {
     const localData = JSON.parse(localStorage.getItem("localData") || "");
-    if (localData) {
+    if (localData.length > 0) {
       setFilteredArray(localData);
     }
   }, []);
