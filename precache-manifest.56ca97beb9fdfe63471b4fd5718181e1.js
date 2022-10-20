@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "771dd37451133bcec51d",
+    "revision": "016f2db4f19dbc6d7566",
     "url": "/entertainment-web-app/static/css/main.0bc06cfa.chunk.css"
   },
   {
-    "revision": "771dd37451133bcec51d",
-    "url": "/entertainment-web-app/static/js/main.771dd374.chunk.js"
+    "revision": "016f2db4f19dbc6d7566",
+    "url": "/entertainment-web-app/static/js/main.016f2db4.chunk.js"
   },
   {
     "revision": "fe3d1ee944e05e195baf",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/entertainment-web-app/static/js/runtime~main.f12ae4b6.js"
   },
   {
-    "revision": "78f660f08d582013b714d3985c657193",
+    "revision": "5746cea062c18a71c8570ef594cf46d8",
     "url": "/entertainment-web-app/index.html"
   }
 ];
