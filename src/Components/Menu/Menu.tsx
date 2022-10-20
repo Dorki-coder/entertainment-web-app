@@ -11,7 +11,7 @@ const Menu: React.FC<IMenuProps> = (props) => {
 
   return (
     <div className={styles.menu_wrapper}>
-      <img src={"/assets/logo.svg"} width="32" />
+      <img src={"./assets/logo.svg"} width="32" />
       <nav className={styles.nav}>
         <Link
           to={"/"}

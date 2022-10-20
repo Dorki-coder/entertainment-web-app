@@ -16,7 +16,7 @@ const Search: React.FC<ISearchProps> = ({
 }) => {
   return (
     <div className={styles.input__wrapper}>
-      <img src={"/assets/icon-search.svg"} alt="searchIco" />
+      <img src={"./assets/icon-search.svg"} alt="searchIco" />
       <input
         placeholder="Search for movies or TV series"
         type="text"
