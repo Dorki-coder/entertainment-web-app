@@ -1,15 +1,15 @@
 {
-  "main.css": "/entertainment-web-app/home/static/css/main.0bc06cfa.chunk.css",
-  "main.js": "/entertainment-web-app/home/static/js/main.e31b8365.chunk.js",
-  "main.js.map": "/entertainment-web-app/home/static/js/main.e31b8365.chunk.js.map",
-  "static/css/1.77cbc713.chunk.css": "/entertainment-web-app/home/static/css/1.77cbc713.chunk.css",
-  "static/js/1.fe3d1ee9.chunk.js": "/entertainment-web-app/home/static/js/1.fe3d1ee9.chunk.js",
-  "static/js/1.fe3d1ee9.chunk.js.map": "/entertainment-web-app/home/static/js/1.fe3d1ee9.chunk.js.map",
-  "runtime~main.js": "/entertainment-web-app/home/static/js/runtime~main.d5bb2d17.js",
-  "runtime~main.js.map": "/entertainment-web-app/home/static/js/runtime~main.d5bb2d17.js.map",
-  "static/css/main.0bc06cfa.chunk.css.map": "/entertainment-web-app/home/static/css/main.0bc06cfa.chunk.css.map",
-  "static/css/1.77cbc713.chunk.css.map": "/entertainment-web-app/home/static/css/1.77cbc713.chunk.css.map",
-  "index.html": "/entertainment-web-app/home/index.html",
-  "precache-manifest.2576f12e9d698858a794968f6fb15329.js": "/entertainment-web-app/home/precache-manifest.2576f12e9d698858a794968f6fb15329.js",
-  "service-worker.js": "/entertainment-web-app/home/service-worker.js"
+  "main.css": "/entertainment-web-app/static/css/main.0bc06cfa.chunk.css",
+  "main.js": "/entertainment-web-app/static/js/main.4ddf4382.chunk.js",
+  "main.js.map": "/entertainment-web-app/static/js/main.4ddf4382.chunk.js.map",
+  "static/css/1.77cbc713.chunk.css": "/entertainment-web-app/static/css/1.77cbc713.chunk.css",
+  "static/js/1.fe3d1ee9.chunk.js": "/entertainment-web-app/static/js/1.fe3d1ee9.chunk.js",
+  "static/js/1.fe3d1ee9.chunk.js.map": "/entertainment-web-app/static/js/1.fe3d1ee9.chunk.js.map",
+  "runtime~main.js": "/entertainment-web-app/static/js/runtime~main.f12ae4b6.js",
+  "runtime~main.js.map": "/entertainment-web-app/static/js/runtime~main.f12ae4b6.js.map",
+  "static/css/main.0bc06cfa.chunk.css.map": "/entertainment-web-app/static/css/main.0bc06cfa.chunk.css.map",
+  "static/css/1.77cbc713.chunk.css.map": "/entertainment-web-app/static/css/1.77cbc713.chunk.css.map",
+  "index.html": "/entertainment-web-app/index.html",
+  "precache-manifest.c52075da0153f057bc041b3a3c6f5fa2.js": "/entertainment-web-app/precache-manifest.c52075da0153f057bc041b3a3c6f5fa2.js",
+  "service-worker.js": "/entertainment-web-app/service-worker.js"
 }
