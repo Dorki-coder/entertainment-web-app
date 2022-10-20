@@ -1,7 +1,7 @@
 {
   "main.css": "/entertainment-web-app/static/css/main.0bc06cfa.chunk.css",
-  "main.js": "/entertainment-web-app/static/js/main.b052d450.chunk.js",
-  "main.js.map": "/entertainment-web-app/static/js/main.b052d450.chunk.js.map",
+  "main.js": "/entertainment-web-app/static/js/main.611f4da6.chunk.js",
+  "main.js.map": "/entertainment-web-app/static/js/main.611f4da6.chunk.js.map",
   "static/css/1.77cbc713.chunk.css": "/entertainment-web-app/static/css/1.77cbc713.chunk.css",
   "static/js/1.fe3d1ee9.chunk.js": "/entertainment-web-app/static/js/1.fe3d1ee9.chunk.js",
   "static/js/1.fe3d1ee9.chunk.js.map": "/entertainment-web-app/static/js/1.fe3d1ee9.chunk.js.map",
@@ -10,6 +10,6 @@
   "static/css/main.0bc06cfa.chunk.css.map": "/entertainment-web-app/static/css/main.0bc06cfa.chunk.css.map",
   "static/css/1.77cbc713.chunk.css.map": "/entertainment-web-app/static/css/1.77cbc713.chunk.css.map",
   "index.html": "/entertainment-web-app/index.html",
-  "precache-manifest.b9d1674120b2dc8a6e2612fa118ca6f7.js": "/entertainment-web-app/precache-manifest.b9d1674120b2dc8a6e2612fa118ca6f7.js",
+  "precache-manifest.c2e6f5158b5ae689e20503d649ae378f.js": "/entertainment-web-app/precache-manifest.c2e6f5158b5ae689e20503d649ae378f.js",
   "service-worker.js": "/entertainment-web-app/service-worker.js"
 }
