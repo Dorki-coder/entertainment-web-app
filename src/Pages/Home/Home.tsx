@@ -11,10 +11,15 @@ interface IHomeProps {
   inputValue: string;
   filteredArray: any;
   setFilteredArray: any;
+  array: any;
 }
 
-const Home: React.FC<IHomeProps> = ({ filteredArray, setFilteredArray }) => {
-  const trendingArray = filteredArray.filter((e: any) => {
+const Home: React.FC<IHomeProps> = ({
+  filteredArray,
+  setFilteredArray,
+  array,
+}) => {
+  const trendingArray = array.filter((e: any) => {
     return e.isTrending === true;
   });
 

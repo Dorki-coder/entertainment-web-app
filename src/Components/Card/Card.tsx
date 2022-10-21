@@ -19,8 +19,8 @@ const Card: React.FC<ICardProps> = ({
         return e;
       } else return e;
     });
-    setFilteredArray(array);
     localStorage.setItem("localData", JSON.stringify(array));
+    setFilteredArray(array);
   };
 
   const [isHovering, setHovering] = useState(false);

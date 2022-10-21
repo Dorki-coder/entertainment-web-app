@@ -11,15 +11,21 @@ import TV from "./Pages/TV";
 
 function App() {
   const [inputValue, setInputValue] = useState("");
+  const [array, setArray] = useState([] as any);
   const [filteredArray, setFilteredArray] = useState([] as any);
 
   useEffect(() => {
     try {
       const localData = JSON.parse(localStorage.getItem("localData") || "");
       if (localData.length > 0) {
+        setArray(localData);
         setFilteredArray(localData);
+      } else {
+        setArray(data);
+        setFilteredArray(data);
       }
     } catch {
+      setArray(data);
       setFilteredArray(data);
     }
   }, []);
@@ -29,7 +35,7 @@ function App() {
       <div className="container">
         <Search
           setInputValue={setInputValue}
-          data={data}
+          data={array}
           setFilteredArray={setFilteredArray}
           inputValue={inputValue}
         />
@@ -38,6 +44,7 @@ function App() {
             path="/"
             element={
               <Home
+                array={array}
                 inputValue={inputValue}
                 filteredArray={filteredArray}
                 setFilteredArray={setFilteredArray}

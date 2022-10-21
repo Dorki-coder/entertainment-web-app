@@ -18,19 +18,25 @@ const Movies: React.FC<IMoviesProps> = ({
 
   return (
     <>
-      <h2>Movies</h2>
-      <div className="list">
-        {data.map((elem: any) => {
-          return (
-            <Card
-              key={elem.title}
-              data={elem}
-              filteredArray={filteredArray}
-              setFilteredArray={setFilteredArray}
-            />
-          );
-        })}
-      </div>
+      {filteredArray.length > 0 ? (
+        <>
+          <h2>Movies</h2>
+          <div className="list">
+            {data.map((elem: any) => {
+              return (
+                <Card
+                  key={elem.title}
+                  data={elem}
+                  filteredArray={filteredArray}
+                  setFilteredArray={setFilteredArray}
+                />
+              );
+            })}
+          </div>
+        </>
+      ) : (
+        <h3>Nothing found...</h3>
+      )}
     </>
   );
 };
