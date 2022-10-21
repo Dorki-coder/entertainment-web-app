@@ -1,15 +1,15 @@
 {
   "main.css": "/entertainment-web-app/static/css/main.0bc06cfa.chunk.css",
-  "main.js": "/entertainment-web-app/static/js/main.016f2db4.chunk.js",
-  "main.js.map": "/entertainment-web-app/static/js/main.016f2db4.chunk.js.map",
+  "main.js": "/entertainment-web-app/static/js/main.d5025df5.chunk.js",
+  "main.js.map": "/entertainment-web-app/static/js/main.d5025df5.chunk.js.map",
   "static/css/1.77cbc713.chunk.css": "/entertainment-web-app/static/css/1.77cbc713.chunk.css",
-  "static/js/1.fe3d1ee9.chunk.js": "/entertainment-web-app/static/js/1.fe3d1ee9.chunk.js",
-  "static/js/1.fe3d1ee9.chunk.js.map": "/entertainment-web-app/static/js/1.fe3d1ee9.chunk.js.map",
+  "static/js/1.29152d2b.chunk.js": "/entertainment-web-app/static/js/1.29152d2b.chunk.js",
+  "static/js/1.29152d2b.chunk.js.map": "/entertainment-web-app/static/js/1.29152d2b.chunk.js.map",
   "runtime~main.js": "/entertainment-web-app/static/js/runtime~main.f12ae4b6.js",
   "runtime~main.js.map": "/entertainment-web-app/static/js/runtime~main.f12ae4b6.js.map",
-  "static/css/main.0bc06cfa.chunk.css.map": "/entertainment-web-app/static/css/main.0bc06cfa.chunk.css.map",
   "static/css/1.77cbc713.chunk.css.map": "/entertainment-web-app/static/css/1.77cbc713.chunk.css.map",
+  "static/css/main.0bc06cfa.chunk.css.map": "/entertainment-web-app/static/css/main.0bc06cfa.chunk.css.map",
   "index.html": "/entertainment-web-app/index.html",
-  "precache-manifest.56ca97beb9fdfe63471b4fd5718181e1.js": "/entertainment-web-app/precache-manifest.56ca97beb9fdfe63471b4fd5718181e1.js",
+  "precache-manifest.34948100d9ca7cdf11ae8988502e1890.js": "/entertainment-web-app/precache-manifest.34948100d9ca7cdf11ae8988502e1890.js",
   "service-worker.js": "/entertainment-web-app/service-worker.js"
 }
