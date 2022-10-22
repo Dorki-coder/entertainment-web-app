@@ -59,3 +59,12 @@ h3 {
 section {
   margin-top: 40px;
 }
+
+@media only screen and (max-width: 600px) {
+  .App {
+    padding: 0;
+  }
+  .container {
+    margin-left: 100px;
+  }
+}

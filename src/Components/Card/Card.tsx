@@ -26,7 +26,7 @@ const Card: React.FC<ICardProps> = ({
   const [isHovering, setHovering] = useState(false);
   return (
     <div className={styles.card}>
-      <img src={data.thumbnail.regular.large} />
+      <img src={data.thumbnail.regular.large} alt={data.title} />
       <div className={styles.descrition}>
         <div>{data.year}</div>
         <div>·</div>

@@ -1,3 +1,4 @@
 .slider__wrapper {
+  overflow-x: auto;
   margin-top: 25px;
 }

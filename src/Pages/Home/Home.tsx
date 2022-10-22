@@ -30,6 +30,21 @@ const Home: React.FC<IHomeProps> = ({
         <Swiper
           spaceBetween={50}
           slidesPerView={2.5}
+          breakpoints={{
+            375: {
+              width: 640,
+              slidesPerView: 1,
+            },
+            // when window width is >= 768px
+            768: {
+              width: 768,
+              slidesPerView: 2,
+            },
+            1100: {
+              width: 1100,
+              slidesPerView: 2.5,
+            },
+          }}
           className={styles.slider__wrapper}
         >
           {trendingArray.map((e: any) => {
